@@ -13,7 +13,7 @@ export const HeroeScreen = ({history}) => {
     // const hero = getHeroesById(heroeId);
 
     if (!hero) {
-        return <Redirect to='/' />;
+        return <Redirect to='/07-heroes-app' />;
     }
 
     const {
@@ -28,9 +28,9 @@ export const HeroeScreen = ({history}) => {
         
         if(history.length <= 2){
             if(publisher === 'DC Comics'){
-                history.push('/dc');
+                history.push('/07-heroes-app/dc');
             }else{
-                history.push('/');
+                history.push('/07-heroes-app');
             }
         }else{
             history.goBack();

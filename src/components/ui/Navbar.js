@@ -21,7 +21,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/"
+                to="/07-heroes-app"
             >
                 Heroes App
             </Link>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/marvel"
+                        to="/07-heroes-app/marvel"
                     >
                         Marvel
                     </NavLink>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/dc"
+                        to="/07-heroes-app/dc"
                     >
                         DC
                     </NavLink>
@@ -51,7 +51,7 @@ export const Navbar = () => {
                         activeClassName='active'
                         className='nav-item nav-link'
                         exact
-                        to='/search'
+                        to='/07-heroes-app/search'
                     >
                         Search
                     </NavLink>

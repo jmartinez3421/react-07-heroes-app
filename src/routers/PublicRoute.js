@@ -14,7 +14,7 @@ export const PublicRoute = ({
             component= { (props) => (
                 (!isAuthenticated)
                     ? <Component {...props} />
-                    : <Redirect to='/' />
+                    : <Redirect to='/07-heroes-app' />
             )}
         />
     )
