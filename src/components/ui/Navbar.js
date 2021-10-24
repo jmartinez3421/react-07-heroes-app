@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     const handleLogout = () => {
         
-        history.replace('/login');
+        history.replace('/07-heroes-app/login');
         dispatch({
             type: types.logout
         })
