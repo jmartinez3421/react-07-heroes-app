@@ -18,14 +18,14 @@ export const AppRouter = () => {
         <Router>
             <Switch>
                 <PublicRoute 
-                    path='/07-heroes-app/login' 
+                    path='/login' 
                     component={LoginScreen} 
                     isAuthenticated={user.logged} 
                 />
 
                 <PrivateRoute
                     isAuthenticated={user.logged} 
-                    path='/07-heroes-app' 
+                    path='/' 
                     component={DashboardRoutes} 
                 />
             </Switch>

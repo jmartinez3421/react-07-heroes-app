@@ -10,7 +10,7 @@ export const Navbar = () => {
 
     const handleLogout = () => {
         
-        history.replace('/07-heroes-app/login');
+        history.replace('/login');
         dispatch({
             type: types.logout
         })
@@ -21,7 +21,7 @@ export const Navbar = () => {
             
             <Link 
                 className="navbar-brand" 
-                to="/07-heroes-app"
+                to="/"
             >
                 Heroes App
             </Link>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/07-heroes-app/marvel"
+                        to="/marvel"
                     >
                         Marvel
                     </NavLink>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                         activeClassName="active"
                         className="nav-item nav-link" 
                         exact
-                        to="/07-heroes-app/dc"
+                        to="/dc"
                     >
                         DC
                     </NavLink>
@@ -51,7 +51,7 @@ export const Navbar = () => {
                         activeClassName='active'
                         className='nav-item nav-link'
                         exact
-                        to='/07-heroes-app/search'
+                        to='/search'
                     >
                         Search
                     </NavLink>
