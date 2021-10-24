@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <SearchForm /> Debe de mostrarse correctamente con los valores por defecto 1`] = `
+Array [
+  <h4>
+    Search your Hero
+  </h4>,
+  <hr />,
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="name"
+      onChange={[Function]}
+      placeholder="Search a hero"
+      type="text"
+      value=""
+    />
+    <div
+      className="d-grid gap-2 mt-1"
+    >
+      <button
+        className="btn btn-outline-success"
+        onSubmit={[Function]}
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+  </form>,
+]
+`;

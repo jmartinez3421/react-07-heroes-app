@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <SearchScreen /> Debe mostrarse correctamente con los valores por defectp 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      Array [
+        <h4>
+          Search your Hero
+        </h4>,
+        <hr />,
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="name"
+            onChange={[Function]}
+            placeholder="Search a hero"
+            type="text"
+            value=""
+          />
+          <div
+            className="d-grid gap-2 mt-1"
+          >
+            <button
+              className="btn btn-outline-success"
+              onSubmit={[Function]}
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </form>,
+      ]
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Search a hero...
+      </div>
+    </div>
+  </div>
+</div>
+`;
