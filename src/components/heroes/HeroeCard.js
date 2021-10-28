@@ -17,7 +17,7 @@ export const HeroeCard = ({heroe}) => {
             <div className="card mb-3" style={{maxWidth: 540}}>
                 <div className="row no-gutters">
                     <div className="col-md-4">
-                        <img src={ heroImages(`./${id}.jpg`) } className="img-fluid rounded-start" alt={superhero} />
+                        <img src={ heroImages(`./${id}.jpg`).default } className="img-fluid rounded-start" alt={superhero} />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">

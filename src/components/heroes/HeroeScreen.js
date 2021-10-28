@@ -4,6 +4,8 @@ import { getHeroesById } from '../../selectors/getHeroeById';
 
 import './heroeScreen.css';
 
+const heroImages = require.context('../../assets/heroes', true);
+
 export const HeroeScreen = ({history}) => {
 
     const {heroeId} = useParams();
@@ -42,7 +44,7 @@ export const HeroeScreen = ({history}) => {
         <div className='row mt-5'>
             <div className='col-4'>
                 <img 
-                    src={ `../assets/heroes/${heroeId}.jpg` }
+                    src={ heroImages(`./${heroeId}.jpg`).default }
                     alt={superhero}
                     className='img-thumbnail animate__animated animate__fadeInTopLeft' 
                     id='heroIMG'
